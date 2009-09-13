@@ -1,0 +1,34 @@
+{
+   "resources" : {
+      "repository" : "http://github.com/kentfredric/Dist-Zilla-App-Command-generate/tree"
+   },
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "generated_by" : "Dist::Zilla::Plugin::MetaJSON version 1.092450",
+   "version" : "0.01000001",
+   "name" : "Dist-Zilla-App-Command-generate",
+   "author" : [
+      "Kent Fredric <kentnl at cpan.org>"
+   ],
+   "license" : "perl",
+   "provides" : {
+      "Dist::Zilla::Types::Generator" : {
+         "version" : "0.01000001",
+         "file" : "lib/Dist/Zilla/Types/Generator.pm"
+      },
+      "Dist::Zilla::App::Command::generate" : {
+         "version" : "0.01000001",
+         "file" : "lib/Dist/Zilla/App/Command/generate.pm"
+      },
+      "Dist::Zilla::Role::Generator" : {
+         "version" : "0.01000001",
+         "file" : "lib/Dist/Zilla/Role/Generator.pm"
+      }
+   },
+   "requires" : {
+      "Test::More" : "0"
+   },
+   "abstract" : "Generate your dist/dist parts from custom global templates."
+}
